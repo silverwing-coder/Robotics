@@ -73,9 +73,8 @@ Refer to --> <br> (Documentation)
 <a href=http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/index.html> MAVSDK-Python API Reference</a><br> (GitHub with examples)
 <a href=https://github.com/mavlink/MAVSDK-Python> mavlink/MAVSDK-Python</a>
 
+``` py
 
-
-    ``` py
     # Connection Test Code: Sangmork Park at VMI
  
     import asyncio
@@ -100,10 +99,10 @@ Refer to --> <br> (Documentation)
     #     print("Disablint the vehicle")
         print("Example complete")
 
-if __name__ == '__main__':
-    asyncio.run(main())
+    if __name__ == '__main__':
+        asyncio.run(main())
 
-    ```
+ ```
 
 
 <h3>III. Drone Programming</h3>
